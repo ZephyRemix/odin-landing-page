@@ -84,7 +84,7 @@ img {
     max-height: 90%;
 }
 
-/* second section */
+/* section two */
 .section-two {
     padding: 2rem 5rem 5rem 5rem;
 }
@@ -98,6 +98,7 @@ img {
     padding: 1rem 0;
 }
 
+/* information */
 .information {
     display: flex;
     flex: 1;
@@ -126,4 +127,25 @@ img {
     font-size: 18px;
     width: 120px;
     color: #808080;
+}
+
+/* section three */
+.section-three {
+    background-color: #E5E7EB;
+    padding: 5rem 5rem;
+}
+
+/* quote */
+.quote {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+/* quoter */
+.quoter {
+    text-align: right;
+    font-weight: bold;
 }
