@@ -38,14 +38,18 @@ a {
 .hero-content {
     padding: 3rem 5rem;
     display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
 }
 
 .left-hero {
-    min-width: 40%;
+    max-width: 45%;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    border: 1px solid red;
 }
 
 .hero-main {
@@ -75,6 +79,7 @@ button {
     justify-content: center;
     align-items: center;
     padding: 5px 0 5px 5px;
+    border: 1px solid red;
 }
 
 img {
@@ -151,6 +156,7 @@ img {
     border-radius: 5px;
     padding: 1rem 2.5rem;;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
