@@ -148,7 +148,7 @@ img {
 /* section four */
 .cta-section {
     background-color: #3882F6;
-    margin: 3rem 5rem;
+    margin: 4rem 5rem;
     border-radius: 5px;
     padding: 1rem 2.5rem;;
     display: flex;
@@ -183,4 +183,14 @@ img {
     border-radius: 5px;
     padding: 5px 10px;
     justify-content: center;
+}
+
+/* section five */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
