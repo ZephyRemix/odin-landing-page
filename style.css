@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-.section-one {
+.hero-section {
     background-color: #1F2937;
 }
 
@@ -85,7 +85,7 @@ img {
 }
 
 /* section two */
-.section-two {
+.information-section {
     padding: 2rem 5rem 5rem 5rem;
 }
 
@@ -130,7 +130,7 @@ img {
 }
 
 /* section three */
-.section-three {
+.quote-section {
     background-color: #E5E7EB;
     padding: 5rem 5rem;
 }
