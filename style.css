@@ -1,3 +1,7 @@
+/* * {
+    border: 1px solid red;
+} */
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -36,15 +40,20 @@ a {
 }
 
 .hero-content {
+    margin: 1em auto 0 auto;
     padding: 3rem 5rem;
+    width: 85%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-hero {
-    max-width: 45%;
+    margin: 3em 2em 3em 2em;
+    width: 30vw;
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
@@ -73,15 +82,16 @@ button {
 }
 
 .right-hero {
+    width: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 0 5px 5px;
 }
 
 img {
-    max-width: 90%;
-    max-height: 90%;
+    /* max-width: 90%;
+    max-height: 90%; */
+    width: 30vw;
 }
 
 /* section two */
